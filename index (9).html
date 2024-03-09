@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codex Roblox IPA Executor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            background-color: #444;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+        h1, h2, p {
+            color: #fff;
+        }
+        .download-btn {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 15px 30px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 9px;
+        }
+        .download-btn:hover {
+            background-color: #45a049;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #bbb;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Codex Roblox IPA Executor</h1>
+        <p>Paving the way for the future of script execution, Codex allows you to execute any script with ease. It's fast, stable, and powerful.
+        </p>
+        
+        <h2>Download Codex</h2>
+        <p>To download Codex, please click the button below:</p>
+        <button class="download-btn" onclick="downloadFile()">Download Codex Roblox</button>
+
+
+    <script>
+        function downloadFile() {
+            // Change the URL to the actual download link
+            var downloadUrl = 'https://download2443.mediafire.com/eikx8hwpuqagJLSt15gqpCkO6w-BxtkvDAPhHcPM3Bzt1I3ddUzGG7L1ETR8n17O6GI0mMAOZrEGRZDOXWiIpugIGHjr0IjQ-I2R2f9ox4M_95HaWtfEIzQSQYXiCJiHTxe6PG2uZcsO78rkB8S-1QbJ5TBb8lvLQuij4navyXk/3mbp8j9ozhx0pmm/CodexIOS.ipa';
+            var link = document.createElement('a');
+            link.href = downloadUrl;
+            link.download = 'CodexIOS.ipa';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    </script>
+
+    </footer>
+</div>
+</body>
+</html>
